@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Walsall Tourism | Home</title>
+      <link rel="stylesheet" href="./css/style.css">
+   </head>
+   <body>
+      <header>
+         <div class="container">      
+            <div id="branding">
+               <h1><span class="highlight">WALSALL</span> TOURISM</h1>
+            </div>
+            <nav>
+               <ul>  
+                  <li class="current"><a href="index.html" accesskey="1">Home</a></li>
+                  <li><a href="history.html" accesskey="2">History</a></li>
+                  <li><a href="famous.html" accesskey="3">Famous persons</a></li>
+                  <li><a href="attraction.html" accesskey="4">Attraction</a></li>
+                  <li><a href="restaurant.html" accesskey="5">Restaurant</a></li>
+                  <li><a href="contact.html" accesskey="6">Contancts</a></li>
+                       
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <section id="showcase" style="background: url(img/walsall-skyline.jpg) no-repeat 0px -400px">
+         <div class="container">
+            <h1>WALSALL: AND ITS SURROUNDINGS</h1>
+         </div>
+      </section>
+      <section id="newsletter">
+         <div class="container">
+            <h1>Enter your email to receive weekly news...</h1>
+            <form>
+               <input type="email" placeholder="Enter Email...">
+               <button type="submit" class="button_1">Subscribe</button>
+            </form>
+         </div>
+      </section>
+      <section id="intro">
+         <h2>SOME INFORMATION ABOUT WALSALL AND ITS SURROUNDINGS</h2>
+         <div class="container">
+            <div class="paragraph" style="border-top: #177dd6 1px solid; width: 98%; padding-bottom :15px;"> 
+               <h3>An introduction about Walsall</h3>
+               <p>Walsall is an industrial town in the West Midlands of England. It is located 8 miles north-west of the City of Birmingham and 6 miles east of the City of Wolverhampton. Historically a part of Staffordshire, Walsall is a component area of the West Midlands.
+                  Walsall is the administrative centre of the wider Metropolitan Borough of Walsall. At the 2011 census, the town's built-up area had a population of 67,594, with the wider borough having a population of 269,323. Neighbouring cities include Darlaston, Brownhills, Willenhall, Bloxwich and Aldridge.
+               </p>
+               <img src="img/statue.jpg" alt= "image of a statue, located in central Walsall" style="border-radius: 10px; float: left; border: #177dd6 1px solid; width:80%;">
+            </div>
+            <div class="paragraph" style=" width: 98%; padding-bottom :15px;">
+               <h3>An introduction about Wolverhampton</h3>
+               <p>Wolverhampton is a city and metropolitan borough in the West Midlands, England. At the 2011 census, it had a population of 249,470. The demonym for people from the city is "Wulfrunian".
+                  Historically part of Staffordshire, the city is named after Wulfrun, who founded the town in 985, from the Anglo-Saxon Wulfrūnehēantūn. Alternatively, the city may have earned its original name from Wulfereēantūn after the Mercian King, who tradition tells us established an abbey in 659, though no evidence of an abbey has been found. The variation Wolveren Hampton is seen in medieval records.
+               </p>
+               <img src="img/church.jpg" alt= "image of a curch located in Wolverhampton" style="border-radius: 10px;float: left; border: #177dd6 1px solid; width: 79%">
+            </div>
+            <div class="paragraph" style=" width: 98%; padding-bottom :15px;">
+               <h3>An introduction about Birmingham</h3>
+               <p>Birmingham, is a city and metropolitan borough in the West Midlands of England, standing on the small River Rea. It is the largest and most populous British city outside London, with an estimated population of 1,101,360 as of 2014. Today Birmingham's economy is dominated by the service sector. The city is a major international commercial centre, ranked as a gamma+ world city by the Globalization and World Cities Research Network; and an important transport, retail, events and conference hub. Its metropolitan economy is the second largest in the United Kingdom with a GDP of $121.1 billions (2014), and its six universities make it the largest centre of higher education in the country outside London.</p>
+               <img src="img/bull_ring.jpg" alt="image of the Bull Ring located in Birmingham" style="border-radius: 10px;float: left; border: #177dd6 1px solid;width:80%;">
+            </div>
+         </div>
+      </section>
+      <footer>
+         <p>Rakib Abdur, Copyright &copy; 2018</p>
+      </footer>
+       <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+   </body>
+</html>
